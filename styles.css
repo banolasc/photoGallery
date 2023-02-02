@@ -1,0 +1,13 @@
+html{
+    align-content: center;
+    background-color: black;
+}
+body{
+    background-color: white;
+}
+h1{
+text-align:center;
+text-transform: capitalize;
+size: 800px;
+text-size-adjust: 600px;
+}
