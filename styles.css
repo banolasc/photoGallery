@@ -51,4 +51,26 @@ grid-template-rows: 1fr;
 justify-content: center;
 
 }
+.Contact{
+    display: grid;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+form>input{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+footer{
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+input{
+    justify-content: center;
+    color: #007d7b;
+    font-weight: bold;
+}
 
