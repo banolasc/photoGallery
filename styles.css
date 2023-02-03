@@ -73,6 +73,8 @@ input{
     color: #007d7b;
     font-weight: bold;
 }
+
+
 @media screen and (min-width: 888px){
     #grid{
         grid-template-columns: 1fr 1fr;
