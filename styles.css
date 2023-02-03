@@ -16,7 +16,7 @@ nav ul{
     background-color: black;
     display: grid;
     padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 2fr 1fr  ; 
 }
 .top{
     overflow: hidden;
