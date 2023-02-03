@@ -1,13 +1,46 @@
 html{
     align-content: center;
     background-color: black;
+    min-width: 485px;
+    max-width: 1300px;
 }
+
+header>h1{
+text-align:center;
+text-transform: capitalize;
+font-size: 60px;
+color: #007d7b
+
+}
+nav ul{
+    background-color: black;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+ul li{
+    
+    text-align: center;
+    list-style-type: none;
+}
+li>a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
 body{
     background-color: white;
 }
-h1{
-text-align:center;
-text-transform: capitalize;
-size: 800px;
-text-size-adjust: 600px;
+article{
+    text-align: center;
 }
+article>h2{
+    font-size: 30px;
+}
+#grid{
+display: grid;
+align-content: center;
+grid-template-columns: 1fr;
+}
+
