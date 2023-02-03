@@ -3,6 +3,7 @@ html{
     background-color: black;
     min-width: 485px;
     max-width: 1300px;
+    margin: auto;
 }
 
 header>h1{
@@ -16,7 +17,7 @@ nav ul{
     background-color: black;
     display: grid;
     padding: 50px;
-    grid-template-columns: 1fr 2fr 1fr  ; 
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .top{
     overflow: hidden;
@@ -31,6 +32,7 @@ li>a{
     font-size: 30px;
     color: white;
     font-weight: bold;
+   
 }
 
 body{
@@ -44,7 +46,8 @@ article>h2{
 }
 #grid{
 display: grid;
-align-content: center;
+margin: auto;
 grid-template-rows: 1fr;
+
 }
 
