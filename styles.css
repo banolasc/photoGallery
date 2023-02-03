@@ -48,6 +48,7 @@ article>h2{
 display: grid;
 margin: auto;
 grid-template-rows: 1fr;
+justify-content: center;
 
 }
 
