@@ -20,7 +20,11 @@ nav ul{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .top{
-    overflow: hidden;
+    position:fixed;
+     bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+
 }
 ul li{
     
@@ -77,7 +81,7 @@ input{
 
 @media screen and (min-width: 888px){
     #grid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
     }
     .Contact{
         display: grid;
@@ -101,6 +105,21 @@ input{
         color: #007d7b;
         font-weight: bold;
     }
+    [href="#top"] {
+        position:fixed;
+        bottom:0px;
+        right:0px;
+        border-radius:10px 0 0px 0px;
+      }
     
 }
+@media screen and (min-width: 1300px){
+    #grid{
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: -55rem;
+        padding: 0px;
+    }
+
+}
+
 
