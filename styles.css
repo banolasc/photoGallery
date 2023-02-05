@@ -3,7 +3,7 @@ html{
     background-color: black;
     min-width: 485px;
     max-width: 1300px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header>h1{
@@ -33,7 +33,7 @@ ul li{
 }
 li>a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
    
@@ -105,19 +105,14 @@ input{
         color: #007d7b;
         font-weight: bold;
     }
-    [href="#top"] {
-        position:fixed;
-        bottom:0px;
-        right:0px;
-        border-radius:10px 0 0px 0px;
-      }
     
 }
 @media screen and (min-width: 1300px){
     #grid{
         grid-template-columns: 1fr 1fr 1fr ;
-        column-gap: -55rem;
-        padding: 0px;
+        column-gap: 0;
+        row-gap: 0;
+        column-gap: -25px -25px -25px;
     }
 
 }
