@@ -159,7 +159,12 @@ input{
 @media screen and (min-width: 1300px){
     #grid{
         grid-template-columns: 1fr 1fr 1fr ;
+        padding:25px;
+        grid-gap:15px;
 
+    }
+    article{
+        padding: 34px;
     }
     body{
             width: 1300px;
