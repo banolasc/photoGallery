@@ -128,6 +128,7 @@ input{
 @media screen and (min-width: 888px){
     #grid{
         grid-template-columns: 1fr 1fr ;
+        padding: 15px;
     }
     body{
         width: 888px;
