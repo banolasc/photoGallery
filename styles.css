@@ -1,10 +1,13 @@
-html{
-    align-content: center;
-    background-color: black;
-    min-width: 485px;
-    max-width: 1300px;
+
+
+body {
+    width:485px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
 
 header>h1{
 text-align:center;
