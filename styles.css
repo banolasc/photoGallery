@@ -63,6 +63,13 @@ font-size: 40px;
 color: #007d7b
 
 }
+section>h2{
+    text-align: center;
+    font-size: 30px;
+}
+section>p{
+    text-align: center;
+}
 nav ul{
     background-color: black;
     display: grid;
@@ -89,6 +96,7 @@ li>a{
    
 }
 
+  
 article{
     text-align: center;
 }
